@@ -1,0 +1,1 @@
+edgeAIVenv\Scripts\Activate.ps1

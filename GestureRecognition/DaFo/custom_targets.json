@@ -1,0 +1,39 @@
+{
+    "DISCO_F407VG_IOT01A": {
+        "inherits": [
+            "MCU_STM32F4"
+        ],
+        "components_add": [
+            "BlueNRG_MS",
+            "QSPIF"
+        ],
+        "extra_labels_add": [
+            "CORDIO",
+            "MX25R6435F"
+        ],
+        "supported_form_factors": [
+            "ARDUINO"
+        ],
+        "detect_code": [
+            "1234"
+        ],
+        "macros_add": [
+            "STM32L475xx",
+            "MBED_SPLIT_HEAP"
+        ],
+        "device_has_add": [
+            "QSPI"
+        ],
+        "device_has_remove": [
+            "ANALOGOUT",
+            "ANALOGIN",
+            "CAN",
+            "I2CSLAVE",
+            "I2C_ASYNC"
+        ],
+        "features": [
+            "BLE"
+        ],
+        "device_name": "STM32L475VG"
+    }
+}

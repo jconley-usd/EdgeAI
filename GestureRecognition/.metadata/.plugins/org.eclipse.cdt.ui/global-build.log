@@ -1,0 +1,16 @@
+00:00:22 **** Incremental Build of configuration Debug for project STM32F407-OS ****
+make -j8 all 
+arm-none-eabi-gcc -o "STM32F407-OS.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\jacco\OneDrive\Desktop\EdgeAI\GestureRecognition\STM32F407-OS\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F407-OS.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F407-OS.elf
+ 
+arm-none-eabi-size  STM32F407-OS.elf 
+arm-none-eabi-objdump -h -S STM32F407-OS.elf  > "STM32F407-OS.list"
+   text	   data	    bss	    dec	    hex	filename
+  32236	    204	   4556	  36996	   9084	STM32F407-OS.elf
+arm-none-eabi-objcopy  -O binary STM32F407-OS.elf  "STM32F407-OS.bin"
+Finished building: default.size.stdout
+ 
+Finished building: STM32F407-OS.bin
+Finished building: STM32F407-OS.list
+ 
+ 
