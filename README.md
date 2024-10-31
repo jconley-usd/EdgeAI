@@ -5,11 +5,11 @@ Welcome to the EdgeAI repository! This project is designed to support research a
 EdgeAI focuses on deploying AI models directly on edge devices to enhance efficiency and minimize the need for high-bandwidth, cloud-dependent operations. The project is designed to support context-aware systems by harnessing AI capabilities on devices such as smartphones, IoT devices, and wearables. Our goal is to reduce latency and improve privacy in applications by processing data locally, making it particularly well-suited for real-time applications in sectors such as healthcare, environmental monitoring, and smart infrastructure.
 
 ## Features
-+Lightweight AI Models: Optimized models for resource-constrained edge devices.
-+Effecient Power Consumption: Significantly lower power consumption during deployment and training.
-+Context-Awareness: Intelligent processing that adapts based on environmental and operational context.
-+Real-Time Decision Making: Efficient algorithms for immediate, actionable insights.
-+Privacy-Preserving Analytics: Processes data locally to ensure enhanced user privacy and security.
++ Lightweight AI Models: Optimized models for resource-constrained edge devices.
++ Effecient Power Consumption: Significantly lower power consumption during deployment and training.
++ Context-Awareness: Intelligent processing that adapts based on environmental and operational context.
++ Real-Time Decision Making: Efficient algorithms for immediate, actionable insights.
++ Privacy-Preserving Analytics: Processes data locally to ensure enhanced user privacy and security.
 ##Installation
 Clone this repository to your local machine and follow the setup instructions below:
 
