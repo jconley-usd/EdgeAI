@@ -10,14 +10,12 @@ EdgeAI focuses on deploying AI models directly on edge devices to enhance effici
 + Context-Awareness: Intelligent processing that adapts based on environmental and operational context.
 + Real-Time Decision Making: Efficient algorithms for immediate, actionable insights.
 + Privacy-Preserving Analytics: Processes data locally to ensure enhanced user privacy and security.
-##Installation
+
+## Installation
 Clone this repository to your local machine and follow the setup instructions below:
-
-```bash
+bash```
 git clone https://github.com/yourusername/EdgeAI.git
-cd EdgeAI
-```
-
+cd EdgeAI```
 ## Additional setup instructions here
 Getting Started
 To get started with EdgeAI, you will need to configure the environment for your specific device. Detailed setup guides are provided for various edge hardware, including STM32 Devices, and other IoT-compatible devices.
