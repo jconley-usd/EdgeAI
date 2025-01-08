@@ -14,7 +14,7 @@ EdgeAI focuses on deploying AI models directly on edge devices to enhance effici
 ## Installation
 Clone this repository to your local machine and follow the setup instructions below:
 bash```
-git clone https://github.com/yourusername/EdgeAI.git
+git clone https://github.com/jconley-usd/EdgeAI.git
 cd EdgeAI```
 ## Additional setup instructions here
 Getting Started
